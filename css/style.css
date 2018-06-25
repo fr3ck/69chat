@@ -1,0 +1,174 @@
+#name_prompt_parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-image: url("../image/background.jpg");
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+
+#name_prompt{
+    background-color: #fff;
+    box-shadow: 0 0 5px #d1d1d1;
+    margin: 20px;
+    padding: 20px;
+    height: 30%;
+    width: 30%;
+    text-align:center;
+    line-height: 40px;
+    margin-top: 120px;
+
+}
+
+#name_prompt .title{
+    font-size: 18px;
+}
+
+#chatroom{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
+    height: 98%;
+    width: 70%;
+    background-color: #fff;
+    box-shadow: 0 0 5px #d1d1d1;
+    margin: 10px;
+    padding: 10px;
+    float: left;
+}
+
+#chatroom #messages{
+    flex: 1;
+    overflow-y: scroll;
+    max-height: 90%;
+    float: left;
+}
+
+#chatroom #input{
+    display: flex;
+    float: left;
+}
+
+#chatroom #input .btn{
+    margin-left: 30px;
+}
+
+#chatroom #messages #m .name{
+    color: #0072c5;
+    font-weight: bold;
+}
+
+#chatroom #messages #m{
+    border-bottom: 1px solid #d1d1d1;
+}
+
+#select{
+    box-shadow: 0 0 5px #d1d1d1;
+    width: 27%;
+    height: 98%;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+input[type="radio"], input[type="checkbox"] {
+    display: inline-block;
+	background-color: #ccc;
+	cursor: pointer;
+	padding-bottom:80px;
+}
+
+
+input[type="checkbox"] {
+    display:none;
+}
+
+input[type="checkbox"] + label {
+    color:#f2f2f2;
+}
+
+input[type="checkbox"] + label span {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-2px 10px 0 0;
+    vertical-align:middle;
+    background:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/check_radio_sheet.png) left top no-repeat;
+    cursor:pointer;
+}
+
+input[type="checkbox"]:checked + label span {
+    background:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/check_radio_sheet.png) -19px top no-repeat;
+}
+
+input[type="radio"] {
+    display:none;
+}
+
+input[type="radio"] + label {
+    color:#2f4ed8;
+    font-family:Arial, sans-serif;
+}
+
+input[type="radio"] + label span {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-2px 10px 0 0;
+    vertical-align:middle;
+    background:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/check_radio_sheet.png) -38px top no-repeat;
+    cursor:pointer;
+}
+
+input[type="radio"]:checked + label span {
+    background:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/check_radio_sheet.png) -57px top no-repeat;
+}
+
+.random{
+    width: 100%;
+    text-align: center;
+}
+
+.button{
+        background-color: #4CAF50 !important; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        width: 100%;
+}
+
+.button1{
+    /* background-color: #4CAF50 !important; Green */
+    border: none;
+    /* color: white; */
+    padding: 15px 10 px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+    height: 49px;
+    width: 30%;
+}
+
+.enternum{
+    width: 100%;
+    /* padding: 40px; */
+    padding-top: 10px;
+    text-align: center;
+}
+
+.enternum input{
+    height: 50px;
+    width: 68%;
+}
